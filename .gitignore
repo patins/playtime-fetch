@@ -1,0 +1,4 @@
+.DS_Store
+*.py[oc]
+venv/
+config.py

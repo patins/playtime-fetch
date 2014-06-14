@@ -33,4 +33,4 @@ class ReverseProxied(object):
             environ['wsgi.url_scheme'] = scheme
         return self.app(environ, start_response)
 
-app = ReverseProxied(app.app.wsgi_app)
+wsgi_app = ReverseProxied(app.app.wsgi_app)
